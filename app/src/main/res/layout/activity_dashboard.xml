@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="All Serveice"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dadfe1"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Lab"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/lab_inner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#acabab"
+                android:layout_gravity="center"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/lab_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Appointment"
+                    android:textColor="#2894e4"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/lab_image"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doc">
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Medicine"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/medicine_inner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#acabab"
+                android:layout_gravity="center"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/medicine_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Doctor"
+                    android:textColor="#2894e4"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/medicine_image"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doc">
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/doctor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/doctor_inner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#acabab"
+                android:layout_gravity="center"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/doctor_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="#2894e4"
+                    android:textStyle="bold"
+                    android:text="Medicine">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/medicine_image"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/medicine"
+                    tools:ignore="DuplicateIds">
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Articales"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/Articales_inner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#acabab"
+                android:layout_gravity="center"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/staff.image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Staff Management"
+                    android:textColor="#2894e4"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/Articales_image"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/doctor">
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/order_inner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#acabab"
+                android:layout_gravity="center"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/order_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="#2894e4"
+                    android:textStyle="bold"
+                    android:text="Lab Test">
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/order_image"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lab">
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logoutButton"
+                android:text="LogOut"></Button>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

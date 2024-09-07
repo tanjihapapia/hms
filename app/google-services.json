@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692448413825",
+    "project_id": "hospital-management-syst-fcb4c",
+    "storage_bucket": "hospital-management-syst-fcb4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692448413825:android:9b83104d24597fad1f2580",
+        "android_client_info": {
+          "package_name": "com.example.hms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp9QZeJL2zlR3CJ9E4saKr5DrX-PQ7Gyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="appointment_text" type="id" />
+    <item name="staff_text" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="backsignup" type="id" />
+</resources>
